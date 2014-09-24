@@ -14,3 +14,5 @@ chmod 0700 /var/lib/puppet-git-receiver/.ssh
 
 curl --silent https://github.com/RsrchBoy.keys > /var/lib/puppet-git-receiver/.ssh/authorized_keys
 
+# echo all our ips, v4 of course, to make life a little easier...
+ip -4 add
