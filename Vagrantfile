@@ -8,6 +8,11 @@
 #
 # Chris Weyl <cweyl@alumni.drew.edu> 2014
 
+# See this if you're experiencing Really Weird Problems involving the second
+# network adapter (host-only) and DHCP/etc.
+#
+# https://github.com/mitchellh/vagrant/issues/3083
+
 # Vagrantfile API/syntax version. Don't touch unless you know what you're doing!
 VAGRANTFILE_API_VERSION = "2"
 
