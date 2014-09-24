@@ -2,9 +2,11 @@
 
 DEBIAN_FRONTEND=noninteractive
 
+set -ex
+
 apt-add-repository -y ppa:rsrchboy/brightbox-puppet
 apt-add-repository -y ppa:git-core/ppa
-apt-get update
+apt-get -q update
 apt-get install -y git puppet-git-receiver curl
 
 mkdir -p /var/lib/puppet-git-receiver/.ssh
